@@ -1,14 +1,14 @@
-** Code Book for the UCI HAR Tidy data set
+## Code Book for the UCI HAR Tidy data set
 The associated data set contains the average values of several of the UCI HAR raw data set measurements. These average measurements are grouped by two other variables: Activity and Subject.
 
-* Grouping variables
+### Grouping variables
 The two variables below were used to group the data. 
 
 "Activity" is the exercise activity performed by the subject while wearing the wearable electronic device that was recording his/her movements. It is a factor variable and Its value is one of "WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING"
 
 "Subject" is an number that specifies the id of the experiment subject performing the exercise with the wearable electronic device.
 
-* Measurement variables
+### Measurement variables
 For all the variables named below, the value associated with each variable is the average value of that measurement for a particular Activity and Subject. The raw column names were retained for easy cross-reference with the original data set.
 
 Please see the features_info.txt for a description of these variables by the original authors of the data set.
