@@ -17,4 +17,4 @@ I think the easiest way to understand what features are in the tidy data set is 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Since we wanted to see the averages of all the feature data with respect to the two descriptive variables, Activity and Subject, I first melted the data set using those two variables as the ID columns. This created a long data set. From there, I used dcast to generate the mean of each feature with respect to Activity and Subject.
 
-The resulting set was written to a text file.
+The resulting set was written to a text file called *UCI_HAR_Tidy.txt*
